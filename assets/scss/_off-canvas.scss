@@ -1,0 +1,22 @@
+
+.off-canvas-wrap,.inner-wrap, .off-canvas {
+    height:100%;
+}
+.off-canvas {
+  background-color: $league-red;
+}
+
+.off-canvas .menu > li > a {
+	text-transform: uppercase;
+  color: #ddd;
+  font-family: 'bebas';
+	&:hover {
+		color: #fff;
+	}
+}
+
+.off-canvas .menu .active > a {
+  background: transparent;
+}
+
+
