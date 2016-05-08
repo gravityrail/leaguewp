@@ -41,7 +41,7 @@
 		
       <!-- off-canvas title bar for 'small' screen -->
       <div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="medium">
-        <img class="logo" src="https://dl.dropboxusercontent.com/u/245807/lwv/logo.jpg" alt="League of Womens Voters Logo" width="50px">
+        <img class="logo" src="<?php echo get_template_directory_uri() ?>/assets/images/logo.jpg" alt="League of Womens Voters Logo" width="50px">
         <p class="league-chapter">League of Women Voters<sup>&#174;</sup>
           <br>of Western Nevada County</p>
         <div class="title-bar-right">
@@ -75,10 +75,10 @@
         </div>
       </div>
       
-      <header class="show-for-medium">
+      <header id="site-header" class="show-for-medium">
           <div class="row">
           <div class="small-12 medium-8 columns">
-            <a class="branding" href="/"><img class="logo" src="https://dl.dropboxusercontent.com/u/245807/lwv/logo.jpg" alt="League of Womens Voters Logo" width="75px">
+            <a class="branding" href="/"><img class="logo" src="<?php echo get_template_directory_uri() ?>/assets/images/logo.jpg" alt="League of Womens Voters Logo" width="75px">
             <p class="league-chapter">League of Women Voters<sup>&#174;</sup>
               <br>of Western Nevada County</p></a>
           </div>

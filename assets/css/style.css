@@ -4232,7 +4232,7 @@ a.branding p {
     .league-chapter {
       font-size: 1.2rem; } }
 
-header {
+header#site-header {
   padding: 1.5rem;
   background: #fff; }
 

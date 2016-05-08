@@ -81,29 +81,28 @@ a.branding p {color: #000;}
 .logo {display: inline-block; float: left; margin-right: 6px; margin-top: 4px;}
 
 .league-chapter {
-  display: inline-block;
-  font-size: 0.8rem; 
-  line-height: 1.5;
-  text-transform: uppercase;
+	display: inline-block;
+	font-size: 0.8rem; 
+	line-height: 1.5;
+	text-transform: uppercase;
 	margin-bottom: 0;
   
-  @media (min-width: 40em) {
-    font-size: 1rem;
-  }
-  @media (min-width: 60em) {
-    font-size: 1.2rem;
- } 
+	@media (min-width: 40em) {
+		font-size: 1rem;
+	}
+	@media (min-width: 60em) {
+		font-size: 1.2rem;
+	} 
 }
 
-header {
+header#site-header {
 	padding: 1.5rem;
-  background: #fff;
-
+	background: #fff;
 }
 
 
 .off-canvas-content {
- box-shadow: 2px 0 2px hsla(0, 0%, 4%, .5);
+	box-shadow: 2px 0 2px hsla(0, 0%, 4%, .5);
 }
 
 
