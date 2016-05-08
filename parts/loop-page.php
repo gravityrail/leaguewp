@@ -12,7 +12,7 @@
 	<footer class="article-footer">
 		
 	</footer> <!-- end article footer -->
-						    
+	<?php edit_post_link(); ?>   
 	<?php comments_template(); ?>
 					
 </article> <!-- end article -->
