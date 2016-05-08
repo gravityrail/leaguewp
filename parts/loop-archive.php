@@ -11,5 +11,6 @@
 						
 	<footer class="article-footer">
     	<p class="tags"><?php the_tags('<span class="tags-title">' . __('Tags:', 'jointstheme') . '</span> ', ', ', ''); ?></p>
-	</footer> <!-- end article footer -->				    						
+	</footer> <!-- end article footer -->
+	<?php edit_post_link(); ?>
 </article> <!-- end article -->

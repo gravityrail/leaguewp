@@ -8,6 +8,7 @@
     <section class="entry-content" itemprop="articleBody">
 		<?php the_post_thumbnail('full'); ?>
 		<?php the_content(); ?>
+		<?php edit_post_link(); ?>
 	</section> <!-- end article section -->
 						
 	<footer class="article-footer">
