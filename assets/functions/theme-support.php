@@ -1,4 +1,17 @@
 <?php
+
+function leaguewp_get_hero_text() {
+	return leaguewp_get_option_text('homepage_callout_text');
+}
+
+function leaguewp_get_option_text( $variable_name ) {
+	$options = get_option('leaguewp_option');
+	if ( $options && isset( $options[ $variable_name ] ) ) {
+		return $options[ $variable_name ];
+	}
+
+	return '';
+}
 	
 // Adding WP Functions & Theme Support
 function joints_theme_support() {
